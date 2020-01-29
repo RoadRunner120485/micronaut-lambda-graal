@@ -1,0 +1,8 @@
+micronaut:
+  security:
+    token:
+      jwt:
+        signatures:
+          jwks:
+            hello:
+              url: 'http://jwtdummy:3000/.well-known/jwks.json'

@@ -1,0 +1,12 @@
+jackson:
+  bean-introspection-module: true
+micronaut:
+  security:
+    enabled: true
+    token:
+      jwt:
+        enabled: true
+        signatures:
+          jwks:
+            hello:
+              url: '<url of jwk server>'

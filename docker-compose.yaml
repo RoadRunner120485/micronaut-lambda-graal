@@ -1,0 +1,15 @@
+version: "3.2"
+
+services:
+#
+#  dynamodb:
+#    image: amazon/dynamodb-local
+#    ports:
+#      - '8020:8000'
+
+  jwtdummy:
+    image: foobert/jwtdummy
+    environment:
+      KEY_ID: 2322da47-1f99-4118-afb7-14303b76bd76
+    ports:
+      - '3000:3000'

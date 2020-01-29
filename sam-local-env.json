@@ -1,0 +1,5 @@
+{
+  "TodoService": {
+      "MICRONAUT_ENVIRONMENTS": "samlocal"
+    }
+}
